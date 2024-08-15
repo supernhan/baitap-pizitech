@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="profile_main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="nav_header">
+        <nav class="nav">
+          <a href="homegomsu.html" class="nav_logo">
+            <img src="img/logolangsom4 1.png" alt="" />
+          </a>
+          <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+              <li class="nav_item">
+                <a
+                  aria-current="page"
+                  href="trangchu.html"
+                  class="nav_link active"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav_item">
+                <a href="aboutus.html" class="nav_link active"> Giới Thiệu </a>
+              </li>
+              <li class="nav_item">
+                <a href="lienhe.html" class="nav_link active">Liên hệ </a>
+              </li>
+              <li class="nav_item">
+                <a href="shop.html" class="nav_link">Cửa hàng</a>
+              </li>
+            </ul>
+            <div class="nav_close" id="nav-close">
+              <i class="ri-close-line"></i>
+            </div>
+          </div>
+
+          <div class="nav_actions">
+            <a class="userr" href="./login.html"
+              ><img src="img/user.png" alt=""
+            /></a>
+            <a class="userr" href="cart.html"
+              ><img src="img/cart.png" alt=""
+            /></a>
+            <i id="nav-toggle" class="ri-menu-line"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="container_header">
+      <div class="input_container">
+        <div class="input_items">
+          <div class="item_title-larger">Quản Lí</div>
+          <div class="item_title-low">Tài Khoản</div>
+          <ul>
+            <a href="./profile.html" style="text-decoration: none"
+              ><li class="item_link">Thông Tin Tài Khoản</li></a
+            >
+            <a href="#" style="text-decoration: none"
+              ><li class="item_items">Liên Kết Ngân Hàng</li></a
+            >
+            <a href="./MyOrder.html" style="text-decoration: none"
+              ><li class="item_link">Đơn Hàng Của Tôi</li></a
+            >
+          </ul>
+        </div>
+
+        <div class="input_detail">
+          <h1 class="input_title">Liên Kết Ngân Hàng</h1>
+          <div class="text_infomation">Tên Ngân Hàng</div>
+          <div class="input_frame">
+            <select name="choose_bank" id="choose_bank">
+              <option value="Viettinbank">Viettinbank</option>
+              <option value="Sacombank">Sacombank</option>
+              <option value="Vietcombank">Vietcombank</option>
+              <option value="Mbbank">Mbbank</option>
+            </select>
+          </div>
+          <div class="text_frame-gird">
+            <div class="text_infomation">Loại Thẻ</div>
+            <div class="text_infomation">Số Tài Khoản/ Thẻ</div>
+          </div>
+          <div class="input_frame-gird">
+            <select name="choose_card" id="choose_card">
+              <option value="Visa">Visa</option>
+              <option value="Napas">Napas</option>
+              <option value="Mastercard">Mastercard</option>
+            </select>
+            <div class="input_frame-sotk">
+              <input
+                type="text"
+                class="sotk_input"
+                placeholder="0123456789"
+                required
+              />
+              <img src="./img/pen.png" alt="pen" class="img_icon-genaral" />
+            </div>
+          </div>
+
+          <div class="text_infomation">Họ Tên Chủ Thẻ</div>
+          <div class="input_frame">
+            <input
+              type="text"
+              class="fullname_input"
+              placeholder="Nguyen Quang Hung"
+              required
+            />
+            <img src="./img/pen.png" alt="pen" class="img_icon-genaralsau" />
+          </div>
+
+          <div class="text_infomation">Ngày Phát Hành</div>
+          <div class="input_frame-nsx">
+            <input
+              type="text"
+              class="nsx_input"
+              placeholder="Month/Year"
+              required
+            />
+          </div>
+
+          <div class="frame_end">
+            <a href="" style="text-decoration: none"
+              ><span class="change_input">Change</span></a
+            >
+            <a href="" style="text-decoration: none"
+              ><span class="cancal_input">Hủy</span></a
+            >
+            <a href="" style="text-decoration: none"
+              ><span class="save_input">Lưu</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="gomsu.js"></script>
+    <script src="./DateOfBirth.js"></script>
+  </body>
+</html>

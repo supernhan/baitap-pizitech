@@ -1,0 +1,257 @@
+.container_header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input_container {
+  width: 80%;
+  padding: 60px 0;
+  height: auto;
+  display: grid;
+  column-gap: 48px;
+  grid-template-columns: 40% auto;
+}
+.input_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item_title-larger,
+.item_title-low {
+  color: #ffffff;
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+.item_title-low {
+  font-size: 48px;
+}
+.item_link,
+.item_items {
+  color: #ffffff;
+  list-style-type: none;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  padding: 16px 0;
+}
+.item_items {
+  color: #708d81;
+  opacity: 0.8;
+}
+.input_detail {
+  display: flex;
+  flex-direction: column;
+}
+.input_title {
+  font-size: 56px;
+  text-align: center;
+  font-weight: 600;
+  font-family: UTM Davida;
+  margin-bottom: 48px;
+}
+.input_detail-gird {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 40px;
+}
+.infomation_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ma_infomation {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 48px;
+}
+.ma_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item_text {
+  color: #ffffff;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.item_time {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.icon_danhmuc {
+  width: 56px;
+  height: 56px;
+}
+@media (min-width: 350px) and (max-width: 768px) {
+  .userr img {
+    width: 2.5rem;
+    display: none;
+  }
+
+  .gioithieu_container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .gioithieu_container img {
+    width: 100%;
+  }
+  .gioithieu_content {
+    width: 100%;
+  }
+  .thanhvien_group {
+    grid-template-columns: none;
+    row-gap: 2rem;
+  }
+  .thanhvien1 img {
+    margin-bottom: 1rem;
+  }
+  .gioithieu_title,
+  .title_customer {
+    font-size: 45px;
+  }
+  .trung {
+    width: 90%;
+  }
+  .frame_gird-customer {
+    display: block;
+  }
+  .title_customer {
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+  .frame_gird-customer {
+    display: block;
+  }
+  .gird_customer {
+    display: flex;
+    margin-top: 48px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img_customer {
+    width: 50%;
+  }
+  .nav {
+    justify-content: space-between;
+  }
+  .gioithieu_content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gioithieu_content p {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .gioithieu_container img {
+    width: 90%;
+  }
+  .thanhvien_group {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nav_link {
+    font-size: 18px;
+  }
+  .gioithieu_container {
+    margin-bottom: 48px;
+  }
+  .gioithieu_img {
+    width: 100%;
+  }
+  .gioithieu_content {
+    width: 100%;
+  }
+  .gioithieu_title,
+  .title_customer {
+    font-size: 36px;
+  }
+  .gioithieu_content p {
+    font-size: 16px;
+  }
+  .name_customer {
+    font-size: 20px;
+    font-family: UTM Davida;
+  }
+  .nav_link {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container_header {
+    display: flex;
+    justify-content: center;
+  }
+  .input_container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mainframe {
+    height: 1100px;
+  }
+  .input_frame {
+    width: 100%;
+  }
+  .img_logo {
+    width: 76px;
+    height: 76px;
+  }
+  .nav_item {
+    font-size: 18px;
+  }
+  .input_detail {
+    margin-top: 32px;
+    justify-content: center;
+  }
+  .icon_danhmuc {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container_header {
+    display: flex;
+    justify-content: center;
+  }
+  .input_container {
+    width: 100%;
+    display: block;
+  }
+  .input_frame {
+    width: 100%;
+  }
+  .mainframe {
+    height: 1100px;
+  }
+  .img_logo {
+    width: 56px;
+    height: 56px;
+  }
+  .input_detail {
+    margin-top: 32px;
+  }
+  .nav_icon {
+    display: none;
+  }
+  .input_container {
+    width: 80%;
+  }
+  .item_title-larger,
+  .item_title-low {
+    text-align: center;
+  }
+  .choose_date {
+    gap: 20px;
+  }
+}

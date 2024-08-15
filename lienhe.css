@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #001427;
+}
+.contact_container {
+  width: 100%;
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  justify-content: space-around;
+  justify-content: center;
+}
+.contact_content {
+  line-height: 2.8rem;
+  font-size: 30px;
+  width: 547px;
+}
+.contact_content p {
+  color: white;
+  font-weight: 300;
+}
+.underline {
+  width: 100%;
+  border: 2px hsla(42, 82%, 75%, 1) solid;
+  margin-top: 6px;
+}
+.footer {
+  font-family: "Montserrat", sans-serif;
+}
+.nav_item {
+  padding: 12px 24px;
+}
+.input {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  border: 3px solid hsla(42, 82%, 75%, 1);
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+}
+.contact_flex {
+  display: flex;
+  justify-content: center;
+}
+input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: relative;
+  color: hsla(42, 82%, 75%, 1);
+}
+.kinh_lup {
+  color: hsla(42, 82%, 75%, 1);
+  font-size: 2rem;
+  position: absolute;
+  right: 60px;
+}
+
+.logo_social {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.contact_content span {
+  font-weight: 1000;
+}
+.contact_container {
+  margin-top: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.frame_gird-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 45% 50%;
+  column-gap: 5%;
+}
+.frame_info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info_container {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+span {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  opacity: 0.7;
+}
+.input_frame {
+  width: 100%;
+  display: flex;
+  height: auto;
+  border: 3px solid hsla(42, 82%, 75%, 1);
+  border-radius: 10px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+.search_input {
+  width: 87%;
+  height: 48px;
+  background: transparent;
+  border-radius: 16px;
+  outline: none;
+  padding: 0px 12px;
+}
+.img_icon-genaral {
+  width: 42px;
+  height: 42px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.nav_header {
+  width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  width: 90%;
+}
+.frame_mxh {
+  display: flex;
+  gap: 2rem;
+}
+.frame_info-container {
+  gap: 1rem;
+}
+.title_lienhe {
+  padding-top: 2rem;
+  color: #f4d58d;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 350px) and (max-width: 768px) {
+  .map_input {
+    width: 100%;
+  }
+  .userr img {
+    width: 2.5rem;
+    display: none;
+  }
+  .contact_container {
+    flex-direction: column-reverse;
+    padding: 3rem 1rem 1rem 1rem;
+  }
+  .map img {
+    width: 100%;
+  }
+  .contact_content {
+    margin-top: 2rem;
+    width: 100%;
+    text-align: left;
+  }
+  .contact_content {
+    line-height: 2.8rem;
+    font-size: 20px;
+  }
+  .input_container {
+    display: block;
+  }
+  .frame_gird-container {
+    display: contents;
+  }
+  .frame_menu {
+    width: 80%;
+    text-align: center;
+  }
+  .contact_container {
+    margin: 0;
+    padding: 48px;
+  }
+  .frame_info-container {
+    margin-top: 48px;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .nav {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nav_header {
+    justify-content: space-between;
+    width: 90%;
+  }
+  .info_container {
+    font-size: 22px;
+  }
+  span {
+    font-size: 18px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .map_input {
+    width: 100%;
+  }
+  .contact_container {
+    flex-direction: column-reverse;
+    padding: 3rem 1rem 1rem 1rem;
+    text-align: center;
+  }
+  .map img {
+    width: 100%;
+  }
+  .contact_content {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .logo_social {
+    justify-content: center;
+  }
+  .input_container {
+    display: block;
+  }
+  .frame_gird-container {
+    display: block;
+  }
+  .frame_menu {
+    width: 80%;
+  }
+  .nav_link {
+    font-size: 18px;
+  }
+  .frame_gird-container {
+    display: contents;
+  }
+  .frame_info-container {
+    margin-top: 4rem;
+  }
+  .frame_mxh {
+    justify-content: center;
+  }
+  .title_lienhe {
+    font-size: 48px;
+  }
+}
+@media (min-width: 1025px) {
+  .title_lienhe {
+    display: none;
+  }
+}
